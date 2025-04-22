@@ -1,0 +1,5 @@
+#!/bin/bash
+read -p "Enter filename: " file
+read -p "Enter word to search: " word
+grep -i "$word" "$file"
+
